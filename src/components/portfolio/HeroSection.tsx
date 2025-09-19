@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Download } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -24,6 +24,16 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button className="btn-neon px-8 py-3 text-lg font-semibold">
               View My Work
+            </Button>
+            <Button 
+              asChild 
+              variant="outline" 
+              className="px-8 py-3 text-lg font-semibold border-neon-purple text-neon-purple hover:bg-neon-purple hover:text-background transition-all duration-300"
+            >
+              <a href="/resume/Akhilesh_Yadav_Resume.pdf" download="Akhilesh_Yadav_Resume.pdf">
+                <Download size={20} className="mr-2" />
+                Download Resume
+              </a>
             </Button>
             <div className="flex gap-4">
               <a 

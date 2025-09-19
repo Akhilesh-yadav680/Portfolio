@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { Github, Linkedin, Mail, Download } from "lucide-react";
 
 const ContactSection = () => {
   const contactLinks = [
@@ -95,6 +95,16 @@ const ContactSection = () => {
                 >
                   <Linkedin size={20} className="mr-2" />
                   Connect on LinkedIn
+                </a>
+              </Button>
+              <Button 
+                asChild 
+                variant="outline"
+                className="border-neon-purple text-neon-purple hover:bg-neon-purple hover:text-background"
+              >
+                <a href="/resume/Akhilesh_Yadav_Resume.pdf" download="Akhilesh_Yadav_Resume.pdf">
+                  <Download size={20} className="mr-2" />
+                  Resume
                 </a>
               </Button>
             </div>
