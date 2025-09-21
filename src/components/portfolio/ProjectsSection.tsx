@@ -50,36 +50,29 @@ const projects: Project[] = [
     title: "PostPilot",
     description: "AI-powered email automation agent that schedules and sends personalized emails for consistent communication. Features smart scheduling and content optimization.",
     tech: ["Python", "AI", "Email APIs", "Automation", "NLP"],
-    github: "https://github.com/Akhilesh-yadav680",
+    github: "https://github.com/Akhilesh-yadav680/Auto-Mail-AI-Agent",
     color: "purple"
   },
   {
     title: "SmartChef Pro",
     description: "Intelligent Telegram bot that suggests personalized recipes using available ingredients and AI. Features dietary preferences and nutritional analysis.",
     tech: ["Python", "Telegram API", "AI", "Recipe APIs", "NLP"],
-    github: "https://github.com/Akhilesh-yadav680",
+    github: "https://github.com/Akhilesh-yadav680/Smart-Chef---AI-Powered-Telegram-Recipe-Bot-AI-AGENT-",
     color: "green"
   },
   {
     title: "FinanceFriend",
     description: "Automated expense tracking Telegram bot for personal or business finances. Features smart categorization and financial insights with AI.",
     tech: ["Python", "Telegram API", "AI", "Finance APIs", "Data Analysis"],
-    github: "https://github.com/Akhilesh-yadav680",
+    github: "https://github.com/Akhilesh-yadav680/ExpenseAI-Agent",
     color: "pink"
-  },
-  {
-    title: "InspireMailer",
-    description: "AI-driven motivational email agent that delivers personalized inspirational content at preset times for daily motivation and productivity.",
-    tech: ["Python", "AI", "Email APIs", "NLP", "Scheduling"],
-    github: "https://github.com/Akhilesh-yadav680",
-    color: "cyan"
   },
   {
     title: "SkyCastBot",
     description: "Real-time weather forecast Telegram bot with AI-powered insights, weather alerts, and personalized recommendations based on conditions.",
     tech: ["Python", "Telegram API", "Weather APIs", "AI", "Location Services"],
-    github: "https://github.com/Akhilesh-yadav680",
-    color: "purple"
+    github: "https://github.com/Akhilesh-yadav680/n8n-weather-email-automation",
+    color: "cyan"
   },
   {
     title: "Expenses Tracker",
