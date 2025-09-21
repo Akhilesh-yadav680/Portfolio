@@ -12,67 +12,102 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "PostPilot",
+    description: "AI-powered email automation agent that schedules and sends personalized emails for consistent communication. Features smart scheduling and content optimization.",
+    tech: ["Python", "AI", "Email APIs", "Automation", "NLP"],
+    github: "https://github.com/Akhilesh-yadav680",
+    color: "cyan"
+  },
+  {
+    title: "SmartChef Pro",
+    description: "Intelligent Telegram bot that suggests personalized recipes using available ingredients and AI. Features dietary preferences and nutritional analysis.",
+    tech: ["Python", "Telegram API", "AI", "Recipe APIs", "NLP"],
+    github: "https://github.com/Akhilesh-yadav680",
+    color: "purple"
+  },
+  {
+    title: "FinanceFriend",
+    description: "Automated expense tracking Telegram bot for personal or business finances. Features smart categorization and financial insights with AI.",
+    tech: ["Python", "Telegram API", "AI", "Finance APIs", "Data Analysis"],
+    github: "https://github.com/Akhilesh-yadav680",
+    color: "green"
+  },
+  {
+    title: "InspireMailer",
+    description: "AI-driven motivational email agent that delivers personalized inspirational content at preset times for daily motivation and productivity.",
+    tech: ["Python", "AI", "Email APIs", "NLP", "Scheduling"],
+    github: "https://github.com/Akhilesh-yadav680",
+    color: "pink"
+  },
+  {
+    title: "SkyCastBot",
+    description: "Real-time weather forecast Telegram bot with AI-powered insights, weather alerts, and personalized recommendations based on conditions.",
+    tech: ["Python", "Telegram API", "Weather APIs", "AI", "Location Services"],
+    github: "https://github.com/Akhilesh-yadav680",
+    color: "cyan"
+  },
+  {
     title: "Cryptoproctor",
     description: "Blockchain-Based Online Proctoring System with secure exam monitoring using Django, Blockchain, Web3, and IPFS with immutable logs for academic integrity.",
     tech: ["Django", "Blockchain", "Web3", "IPFS", "Python"],
     github: "https://github.com/Akhilesh-yadav680",
-    color: "cyan"
+    color: "purple"
   },
   {
     title: "Expenses Tracker",
     description: "Personal finance tracker built with Django, Pandas, and SQLite. Features expense categorization, budget tracking, and financial insights with data visualization.",
     tech: ["Django", "Pandas", "SQLite", "JavaScript", "Chart.js"],
     github: "https://github.com/Akhilesh-yadav680",
-    color: "purple"
+    color: "green"
   },
   {
     title: "Resume Screening System",
     description: "AI-powered resume screening system that uses NLP and machine learning to automatically evaluate and rank resumes based on job requirements.",
     tech: ["Python", "NLP", "Scikit-Learn", "Flask", "TF-IDF"],
     github: "https://github.com/Akhilesh-yadav680",
-    color: "green"
+    color: "pink"
   },
   {
     title: "GitHub Analyzer",
     description: "Comprehensive GitHub profile analyzer that provides insights into coding patterns, repository statistics, and developer productivity metrics.",
     tech: ["Python", "GitHub API", "Data Analysis", "Matplotlib", "Pandas"],
     github: "https://github.com/Akhilesh-yadav680",
-    color: "pink"
+    color: "cyan"
   },
   {
     title: "Job Insight Analyzer",
     description: "Data-driven job market analysis tool that scrapes job postings and provides insights on salary trends, skill requirements, and market demands.",
     tech: ["Python", "Web Scraping", "Data Analysis", "Pandas", "Seaborn"],
     github: "https://github.com/Akhilesh-yadav680",
-    color: "cyan"
+    color: "purple"
   },
   {
     title: "Weather App",
     description: "Real-time weather application with interactive maps, forecasts, and weather alerts. Features responsive design and location-based services.",
     tech: ["JavaScript", "Weather API", "HTML/CSS", "Chart.js", "Geolocation"],
     github: "https://github.com/Akhilesh-yadav680",
-    color: "purple"
+    color: "green"
   },
   {
     title: "Bitcoin Price Tracker",
     description: "Cryptocurrency price tracking application with real-time updates, price alerts, and historical data analysis with interactive charts.",
     tech: ["Python", "Crypto APIs", "Flask", "JavaScript", "WebSocket"],
     github: "https://github.com/Akhilesh-yadav680",
-    color: "green"
+    color: "pink"
   },
   {
     title: "House Price Prediction",
     description: "Machine learning model for predicting house prices using regression algorithms, feature engineering, and data preprocessing techniques.",
     tech: ["Python", "Scikit-Learn", "Pandas", "NumPy", "Regression"],
     github: "https://github.com/Akhilesh-yadav680",
-    color: "pink"
+    color: "cyan"
   },
   {
     title: "Fake News Detection",
     description: "NLP-based fake news detection system using machine learning algorithms to classify news articles and identify misinformation.",
     tech: ["Python", "NLP", "TensorFlow", "NLTK", "Classification"],
     github: "https://github.com/Akhilesh-yadav680",
-    color: "cyan"
+    color: "purple"
   }
 ];
 

@@ -30,6 +30,9 @@ const skills: Skill[] = [
   { name: "Tableau", level: 82, category: "tools", color: "green" },
   { name: "Matplotlib", level: 90, category: "tools", color: "pink" },
   { name: "Seaborn", level: 88, category: "tools", color: "cyan" },
+  { name: "Telegram API", level: 90, category: "tools", color: "purple" },
+  { name: "Email APIs", level: 88, category: "tools", color: "green" },
+  { name: "AI Agents", level: 92, category: "tools", color: "pink" },
 ];
 
 const SkillBar = ({ skill, isVisible }: { skill: Skill; isVisible: boolean }) => {
@@ -142,7 +145,7 @@ const SkillsSection = () => {
                 Deep Learning, Web Development, Data Analysis, and Building Scalable Applications
               </p>
               <div className="flex flex-wrap justify-center gap-3 mt-6">
-                {["AI/ML", "Full-Stack", "Data Science", "Computer Vision", "Web3", "Real-time Systems"].map((tag) => (
+                {["AI/ML", "Full-Stack", "Data Science", "AI Agents", "Bot Development", "Computer Vision", "Web3", "Real-time Systems"].map((tag) => (
                   <span 
                     key={tag}
                     className="px-4 py-2 rounded-full border border-neon-cyan/30 text-neon-cyan text-sm font-medium bg-neon-cyan/5 hover:bg-neon-cyan/10 transition-colors"
