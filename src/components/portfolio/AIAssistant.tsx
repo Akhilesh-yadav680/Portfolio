@@ -49,7 +49,7 @@ const AIAssistant = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch('/api/ai-assistant', {
+      const response = await fetch('/functions/v1/ai-assistant', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
