@@ -4,6 +4,7 @@ import { Card } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { MessageCircle, Send, X, Bot, User } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { supabase } from '@/lib/supabase';
 
 interface Message {
   id: string;
@@ -49,23 +50,22 @@ const AIAssistant = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch('/functions/v1/ai-assistant', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ message: input.trim() }),
+      console.log('Calling AI assistant function...');
+      
+      const { data, error } = await supabase.functions.invoke('ai-assistant', {
+        body: { message: input.trim() }
       });
 
-      if (!response.ok) {
-        throw new Error('Failed to get response');
+      console.log('Function response:', { data, error });
+
+      if (error) {
+        console.error('Supabase function error:', error);
+        throw new Error(error.message || 'Function call failed');
       }
 
-      const data = await response.json();
-      
       const assistantMessage: Message = {
         id: (Date.now() + 1).toString(),
-        content: data.response,
+        content: data.response || 'No response received',
         type: 'assistant',
         timestamp: new Date(),
       };
